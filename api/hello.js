@@ -1,5 +1,8 @@
 import { traceExpress, tracer, captureConsoleLogs } from '@recap.dev/client'
+import express from 'express'
 
+console.log(typeof express)
+traceExpress(express)
 captureConsoleLogs()
 
 module.exports = (req, res) => {
@@ -14,5 +17,5 @@ module.exports = (req, res) => {
     who = req.cookies.who
   }
 
-  res.status(200).send(`Hello ${who}!`)
+  res.status(200).send(`Hello ${who}!!!`)
 }
