@@ -1,0 +1,11 @@
+{
+  "name": "vercel-lambda-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:EugeneDraitsev/vercel-lambda-example.git",
+  "author": "Eugene Draitsev <ddrrai@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@recap.dev/client": "^1.10.0"
+  }
+}
