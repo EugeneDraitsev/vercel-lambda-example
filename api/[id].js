@@ -6,4 +6,4 @@ module.exports = wrapVercelHandler(async (req, res) => {
   const json = await response.json()
 
   res.status(200).send(json)
-}, process.env.VERCEL_ENV + '/api/hello')
+}, process.env.VERCEL_ENV + '/api/[id]')

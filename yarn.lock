@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@recap.dev/client@^1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@recap.dev/client/-/client-1.10.0.tgz#2f8adc28dd8dcabe8f0e9a9c9eda5cf0be01bcbf"
-  integrity sha512-JzVEteTAKGWtwGP6jH7bX459XWFfTlXcXpOQ/xPzpo5Ob6KIVBt0ryV47GY31Mx5ad9TVv/kWp0WYkBGzF/IMQ==
+"@recap.dev/client@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@recap.dev/client/-/client-1.11.0.tgz#4daab94ba4618923a25ad2f29f91c1ebd7f0a3e0"
+  integrity sha512-XSU2+UXcsuvFZxCLJ0X5hJ/ArirhRzSn/w9/qHZ0wkfxWHRVoWuJINpU9RnZ71oXtU2WB8ZR9IgiKI77WIOFmw==
   dependencies:
     lodash-es "^4.17.15"
     node-fetch "^2.6.0"
@@ -25,7 +25,7 @@ lodash-es@^4.17.15:
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.20.tgz#29f6332eefc60e849f869c264bc71126ad61e8f7"
   integrity sha512-JD1COMZsq8maT6mnuz1UMV0jvYD0E0aUsSOdrr1/nAG3dhqQXwRRgeW0cSqH1U43INKcqxaiVIQNOUDld7gRDA==
 
-node-fetch@^2.6.0:
+node-fetch@^2.6.0, node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
